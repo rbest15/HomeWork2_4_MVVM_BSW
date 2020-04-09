@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D1DA002517B50A3CF81DDE /* libPods-HomeWork2_4_MVVM_BSW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347C2B386F7743EAEBE66C66 /* libPods-HomeWork2_4_MVVM_BSW.a */; };
 		6F5345F9243F4B5900BA725E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5345F8243F4B5900BA725E /* AppDelegate.swift */; };
 		6F5345FB243F4B5900BA725E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5345FA243F4B5900BA725E /* SceneDelegate.swift */; };
 		6F5345FD243F4B5900BA725E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5345FC243F4B5900BA725E /* ViewController.swift */; };
 		6F534600243F4B5900BA725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5345FE243F4B5900BA725E /* Main.storyboard */; };
 		6F534602243F4B5A00BA725E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F534601243F4B5A00BA725E /* Assets.xcassets */; };
 		6F534605243F4B5A00BA725E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F534603243F4B5A00BA725E /* LaunchScreen.storyboard */; };
+		6F53460D243F4C6300BA725E /* BSWTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53460C243F4C6300BA725E /* BSWTableViewCell.swift */; };
+		6F53460F243F4D6300BA725E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53460E243F4D6300BA725E /* ViewModel.swift */; };
+		6F534611243F4D7C00BA725E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F534610243F4D7C00BA725E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C46F143164CA3FE39C5D436 /* Pods-HomeWork2_4_MVVM_BSW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork2_4_MVVM_BSW.release.xcconfig"; path = "Target Support Files/Pods-HomeWork2_4_MVVM_BSW/Pods-HomeWork2_4_MVVM_BSW.release.xcconfig"; sourceTree = "<group>"; };
+		347C2B386F7743EAEBE66C66 /* libPods-HomeWork2_4_MVVM_BSW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeWork2_4_MVVM_BSW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515325446E322486E67C4B59 /* Pods-HomeWork2_4_MVVM_BSW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork2_4_MVVM_BSW.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork2_4_MVVM_BSW/Pods-HomeWork2_4_MVVM_BSW.debug.xcconfig"; sourceTree = "<group>"; };
 		6F5345F5243F4B5900BA725E /* HomeWork2_4_MVVM_BSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2_4_MVVM_BSW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5345F8243F4B5900BA725E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F5345FA243F4B5900BA725E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		6F534601243F4B5A00BA725E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F534604243F4B5A00BA725E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F534606243F4B5A00BA725E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F53460C243F4C6300BA725E /* BSWTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSWTableViewCell.swift; sourceTree = "<group>"; };
+		6F53460E243F4D6300BA725E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6F534610243F4D7C00BA725E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D1DA002517B50A3CF81DDE /* libPods-HomeWork2_4_MVVM_BSW.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A11EB7ABCE2FE1898CE34A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				515325446E322486E67C4B59 /* Pods-HomeWork2_4_MVVM_BSW.debug.xcconfig */,
+				2C46F143164CA3FE39C5D436 /* Pods-HomeWork2_4_MVVM_BSW.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4FFEB7D034872C1567381372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347C2B386F7743EAEBE66C66 /* libPods-HomeWork2_4_MVVM_BSW.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F5345EC243F4B5800BA725E = {
 			isa = PBXGroup;
 			children = (
 				6F5345F7243F4B5900BA725E /* HomeWork2_4_MVVM_BSW */,
 				6F5345F6243F4B5900BA725E /* Products */,
+				29A11EB7ABCE2FE1898CE34A /* Pods */,
+				4FFEB7D034872C1567381372 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +89,10 @@
 				6F5345F8243F4B5900BA725E /* AppDelegate.swift */,
 				6F5345FA243F4B5900BA725E /* SceneDelegate.swift */,
 				6F5345FC243F4B5900BA725E /* ViewController.swift */,
+				6F53460E243F4D6300BA725E /* ViewModel.swift */,
+				6F534610243F4D7C00BA725E /* Model.swift */,
 				6F5345FE243F4B5900BA725E /* Main.storyboard */,
+				6F53460C243F4C6300BA725E /* BSWTableViewCell.swift */,
 				6F534601243F4B5A00BA725E /* Assets.xcassets */,
 				6F534603243F4B5A00BA725E /* LaunchScreen.storyboard */,
 				6F534606243F4B5A00BA725E /* Info.plist */,
@@ -74,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F534609243F4B5A00BA725E /* Build configuration list for PBXNativeTarget "HomeWork2_4_MVVM_BSW" */;
 			buildPhases = (
+				74808AFA851BA9445C35EEAF /* [CP] Check Pods Manifest.lock */,
 				6F5345F1243F4B5900BA725E /* Sources */,
 				6F5345F2243F4B5900BA725E /* Frameworks */,
 				6F5345F3243F4B5900BA725E /* Resources */,
@@ -133,12 +167,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74808AFA851BA9445C35EEAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork2_4_MVVM_BSW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F5345F1243F4B5900BA725E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F53460F243F4D6300BA725E /* ViewModel.swift in Sources */,
+				6F53460D243F4C6300BA725E /* BSWTableViewCell.swift in Sources */,
 				6F5345FD243F4B5900BA725E /* ViewController.swift in Sources */,
+				6F534611243F4D7C00BA725E /* Model.swift in Sources */,
 				6F5345F9243F4B5900BA725E /* AppDelegate.swift in Sources */,
 				6F5345FB243F4B5900BA725E /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +344,7 @@
 		};
 		6F53460A243F4B5A00BA725E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515325446E322486E67C4B59 /* Pods-HomeWork2_4_MVVM_BSW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +363,7 @@
 		};
 		6F53460B243F4B5A00BA725E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C46F143164CA3FE39C5D436 /* Pods-HomeWork2_4_MVVM_BSW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

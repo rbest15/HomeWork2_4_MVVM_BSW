@@ -1,20 +1,15 @@
-//
-//  ViewController.swift
-//  HomeWork2_4_MVVM_BSW
-//
-//  Created by Roman Kuzmich on 09.04.2020.
-//  Copyright © 2020 Roman Kuzmich Home Dev. All rights reserved.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    
+    let viewModel = ViewModel()
+
+    @IBOutlet weak var categoryTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewModel.configureTableView(tableView: categoryTableView)
+        viewModel.updateArray()
     }
-
-
 }
 
